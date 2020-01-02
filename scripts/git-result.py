@@ -22,7 +22,7 @@ for i in range(0, len(repos["full_name"])):
 
 total_languages = list(dict.fromkeys(total_languages))
 
-result = [total_files, total_lines, total_languages]
+result = [total_files, total_lines, len(total_languages)]
 
 
 with open('scripts/data/result.json', 'w') as file:
