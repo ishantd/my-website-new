@@ -14,3 +14,12 @@ for i in range(0, len(repos["full_name"])):
         code = json.load(f)
     for j in range(0, len(code["linesOfCode"])):
         total_lines = code["linesOfCode"][str(j)] + total_lines
+    for j in range(0, len(code["files"])):
+        total_files = code["files"][str(j)] + total_files
+    for j in range(0, len(code["language"])):
+        total_languages.append(code["language"][str(j)])
+
+
+total_languages = list(dict.fromkeys(total_languages))
+
+print(total_languages)
