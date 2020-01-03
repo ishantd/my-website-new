@@ -554,6 +554,10 @@ body > section,
   padding-bottom: 0;
 }
 
+.contact-address {
+  margin-right: 30px;
+}
+
 .contact-address h3 {
   color: #062033;
   font-size: 22px;
