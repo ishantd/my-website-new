@@ -687,9 +687,6 @@ label.error {
   line-height: 24px;
 }
 
-.footer-single ul {
-}
-
 .footer-single li {
   line-height: 32px;
 }
@@ -722,4 +719,14 @@ label.error {
 }
 .footer-single li:hover {
   color: black;
+}
+
+#highlight {
+  color: #1ea78d;
+  font-weight: bold;
+}
+
+#highlight:hover {
+  color: black;
+  cursor: pointer;
 }
