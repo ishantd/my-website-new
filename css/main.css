@@ -494,7 +494,7 @@ body > section,
 ==========================================*/
 
 #facts {
-  background-image: url("../img/parallax/city.jpg");
+  background-image: url("../img/Cornered-Stairs.svg");
   background-color: rgba(6, 32, 51, 0.8);
   background-attachment: fixed !important;
   background-position: center center;
@@ -735,10 +735,92 @@ label.error {
   cursor: pointer;
 }
 
-/* .message h3 {
-  display: inline;
-} */
-
 #show {
   display: none;
+}
+
+.container-gallery {
+  width: 100%;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.photobanner {
+  height: 140px;
+  width: 3550px;
+  margin-bottom: 80px;
+}
+.photobanner img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 30s linear infinite;
+  -moz-animation: bannermove 30s linear infinite;
+  -ms-animation: bannermove 30s linear infinite;
+  -o-animation: bannermove 30s linear infinite;
+  animation: bannermove 30s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+}
+
+@-moz-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+}
+
+@-webkit-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+}
+
+@-ms-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+}
+
+@-o-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
 }

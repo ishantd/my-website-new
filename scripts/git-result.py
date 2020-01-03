@@ -21,6 +21,7 @@ for i in range(0, len(repos["full_name"])):
 
 
 total_languages = list(dict.fromkeys(total_languages))
+print(total_languages)
 
 result = [total_files, total_lines, len(
     total_languages), len(repos["full_name"])]

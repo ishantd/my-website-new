@@ -8,7 +8,7 @@ $.getJSON("../scripts/data/result.json", function(data) {
   var f = document.getElementById("files");
   f.setAttribute("data-to", files);
   var lang = document.getElementById("languages");
-  lang.setAttribute("data-to", languages - 3);
+  lang.setAttribute("data-to", languages - 10);
   var repo = document.getElementById("repos");
   repo.setAttribute("data-to", repos);
 });
