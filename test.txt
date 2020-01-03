@@ -1,0 +1,4 @@
+react = react
+ml = ml
+full = full
+ WEB is for APIS
