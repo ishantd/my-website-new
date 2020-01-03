@@ -717,3 +717,9 @@ label.error {
   right: 25px;
   z-index: 9;
 }
+.footer-single li {
+  font-weight: bold;
+}
+.footer-single li:hover {
+  color: black;
+}
