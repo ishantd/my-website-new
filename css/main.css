@@ -734,3 +734,11 @@ label.error {
   color: black;
   cursor: pointer;
 }
+
+/* .message h3 {
+  display: inline;
+} */
+
+#show {
+  display: none;
+}

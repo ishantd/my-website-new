@@ -433,7 +433,10 @@
 					<!-- contact form -->
 					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="contact-form">
-							<h3>Say hello!</h3>
+							<div class="message">
+								<h3 id="hide">Say hello!</h3>
+								<h3 id="show">Message Sent <i class="fa fa-check-circle fa-lg"></i> </h3>
+							</div>
 							<form
             class="contact1-form validate-form"
             id="contact-form"
@@ -454,7 +457,7 @@
 									<textarea name="entry.1283874259" id="msgField" placeholder="Message" class="form-control"></textarea>
 								</div>
 								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
+									<input type="submit" onclick = "onclick_event()" id="form-submit" class="pull-right" value="Send message">
 								</div>
 							</form>
 						</div>
@@ -650,5 +653,12 @@
 		</script>
 		<script src="/js/git_stats.js"></script>
 		<script src="/js/data.js"></script>
+		<script>
+			function onclick_event() {
+  document.getElementById("hide").style.display = "hidden";
+  document.getElementById("show").style.display = "inline";
+}
+
+		</script>
     </body>
 </html>
