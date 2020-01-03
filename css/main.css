@@ -81,9 +81,6 @@ body > section,
   padding: 70px 0;
 }
 
-.sec-title {
-}
-
 .sec-title h2 {
   color: #0eb493;
   font-size: 28px;
@@ -494,7 +491,7 @@ body > section,
 ==========================================*/
 
 #facts {
-  background-image: url("../img/Cornered-Stairs.svg");
+  background-image: url("../img/svg/Cornered-Stairs.svg");
   background-color: rgba(6, 32, 51, 0.8);
   background-attachment: fixed !important;
   background-position: center center;
@@ -567,9 +564,6 @@ body > section,
 
 .contact-address p {
   line-height: 24px;
-}
-
-.contact-form {
 }
 
 .contact-form h3 {
