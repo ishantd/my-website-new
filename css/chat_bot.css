@@ -45,3 +45,16 @@ h3 {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
+
+.intro {
+  padding-top: 300px;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.intro:hover {
+  color: black;
+  font-weight: bold;
+}
