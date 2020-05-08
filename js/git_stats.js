@@ -1,4 +1,4 @@
-$.getJSON("../scripts/data/result.json", function(data) {
+$.getJSON("scripts/data/result.json", function(data) {
   const files = data[0];
   const lines = data[1];
   let languages = data[2];
